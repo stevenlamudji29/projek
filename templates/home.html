@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block konten %}
+<h1>HOME - LOGIN</h1>
+<form action="/aksi_login" method="post">
+    <label for="user">USERNAME: </label>
+    <input type="text" id="user" name="username" >
+    <label for="pass">PASSWORD: </label>
+  <input type="password" id="pass" name="password">
+    <button type="submit">LOGIN</button>
+</form>
+
+<br>
+<i>Username : admin</i><br>
+<i>password : 4321</i>
+{% endblock %}
